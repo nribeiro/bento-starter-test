@@ -108,9 +108,9 @@ workflows:
   build-and-deploy:
     jobs:
       - install-dependencies
-      #- check-prettier:
-          #requires:
-            #- install-dependencies
+      - check-prettier:
+          requires:
+            - install-dependencies
       - check-linter:
           requires:
             - install-dependencies
