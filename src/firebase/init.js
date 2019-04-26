@@ -10,4 +10,4 @@ var config = {
 	storageBucket: "bento-starter-3cc9a.appspot.com",
 	messagingSenderId: "506287278114"
 };
-firebase.initializeApp(config)
+firebase.initializeApp(config);
